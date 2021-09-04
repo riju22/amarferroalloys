@@ -1,0 +1,68 @@
+.txt {
+    &-c {
+        text-align: center;
+    }
+}
+
+.d {
+    &-f {
+        display: flex;
+        flex-flow: wrap;
+    }
+}
+
+.j {
+    &-c {
+        &-sb {
+            justify-content: space-between;
+        }
+
+        &-c {
+            justify-content: center;
+        }
+    }
+}
+
+.a {
+    &-i {
+        &-c {
+            align-items: center;
+        }
+    }
+
+    &-s {
+        &-c {
+            align-self: center;
+        }
+    }
+}
+
+.fw {
+    &-md {
+        font-weight: 500;
+    }
+
+    &-sb {
+        font-weight: 600;
+    }
+
+    &-b {
+        font-weight: 700;
+    }
+
+    &-eb {
+        font-weight: 800;
+    }
+}
+
+.h {
+    &-100 {
+        height: 100%;
+    }
+}
+
+.w {
+    &-100 {
+        width: 100%;
+    }
+}
